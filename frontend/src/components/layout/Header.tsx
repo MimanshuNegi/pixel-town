@@ -42,9 +42,9 @@ const Header: React.FC<HeaderProps> = ({ openAuthModal }) => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#features" className="text-dark-200 hover:text-white transition-colors">Features</a>
-          <a href="#" className="text-dark-200 hover:text-white transition-colors">About</a>
+          <a href="#about" className="text-dark-200 hover:text-white transition-colors">About</a>
           <Button 
-            variant="ghost" 
+            variant="outline" 
             size="sm"
             onClick={() => openAuthModal('login')}
           >
@@ -95,7 +95,7 @@ const Header: React.FC<HeaderProps> = ({ openAuthModal }) => {
             </a>
             <div className="flex flex-col space-y-2 pt-2 border-t border-dark-700">
               <Button 
-                variant="ghost" 
+                variant="outline" 
                 size="md"
                 fullWidth
                 onClick={() => {
