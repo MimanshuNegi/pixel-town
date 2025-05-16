@@ -71,56 +71,7 @@ const Features: React.FC = () => {
             </Card>
           ))}
         </div>
-        
-        {/* Feature showcase */}
-        <div className="mt-20 bg-dark-800/50 border border-dark-700 rounded-xl overflow-hidden">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-            <div className="p-8 md:p-12 flex flex-col justify-center">
-              <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary-900/30 text-primary-400 text-sm font-medium mb-4">
-                <span className="mr-1.5 h-2 w-2 rounded-full bg-primary-500"></span>
-                Popular Feature
-              </div>
-              
-              <h3 className="font-display text-2xl md:text-3xl font-bold text-white mb-4">
-                Create Custom Rooms for Any Occasion
-              </h3>
-              
-              <p className="text-dark-300 mb-6 text-lg">
-                From professional meeting spaces to fun game rooms, create custom environments that perfectly suit your needs. Drag and drop furniture, change wall colors, add decorations, and more.
-              </p>
-              
-              <ul className="space-y-3 mb-8">
-                {['Room templates for quick setup', 'Unlimited customization options', 'Save and share your designs'].map((item, i) => (
-                  <li key={i} className="flex items-start">
-                    <div className="flex-shrink-0 h-6 w-6 rounded-full bg-success-500/20 flex items-center justify-center mt-0.5 mr-2">
-                      <svg className="h-4 w-4 text-success-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <span className="text-dark-200">{item}</span>
-                  </li>
-                ))}
-              </ul>
-              
-              <div>
-                <a href="#" className="inline-flex items-center text-primary-400 hover:text-primary-300 font-medium">
-                  Learn more about customization
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
-              </div>
-            </div>
-            
-            <div className="relative">
-              <img
-                src="https://images.pexels.com/photos/7873567/pexels-photo-7873567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Custom room design in Pixel Town"
-                className="h-full w-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-dark-900/80 via-dark-900/30 to-transparent lg:bg-gradient-to-t lg:from-dark-900/80 lg:via-dark-900/30 lg:to-transparent"></div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
   );
 };

@@ -58,7 +58,7 @@ const About: React.FC = () => {
             
             <div className="relative">
               <img
-                src="./assets/images/about.png"
+                src="./src/assets/imagesbg/about.png"
                 alt="Custom room design in Pixel Town"
                 className="h-full w-full object-cover"
               />
@@ -70,8 +70,6 @@ const About: React.FC = () => {
     </section>
   );
 };
-
-// Add missing import
 import { ArrowRight } from 'lucide-react';
 
 export default About;

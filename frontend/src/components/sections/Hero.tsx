@@ -51,7 +51,7 @@ const Hero: React.FC<HeroProps> = ({ openAuthModal }) => {
           </h1>
           
           <p className="text-dark-300 text-lg md:text-xl mb-8 leading-relaxed">
-            Create and customize your own 2D virtual spaces where people can meet, interact, and collaborate. Perfect for virtual events, team meetings, or casual hangouts.
+            Create your own 2D virtual spaces where people can meet, interact, and collaborate. Perfect for virtual events, team meetings, or casual hangouts.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -100,7 +100,7 @@ const Hero: React.FC<HeroProps> = ({ openAuthModal }) => {
             {/* User count badge */}
             <div className="absolute top-6 right-6 px-3 py-1.5 bg-dark-900/80 backdrop-blur-md rounded-full text-sm text-white border border-dark-700 flex items-center gap-2">
               <span className="h-2 w-2 bg-success-500 rounded-full"></span>
-              <span>2,458 online now</span>
+              <span>153 online now</span>
             </div>
           </div>
         </div>

@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Header from '../components/layout/Header';
 import Hero from '../components/sections/Hero';
 import Features from '../components/sections/Features';
+import About from '../components/sections/About';
 import CallToAction from '../components/sections/CallToAction';
 import Footer from '../components/layout/Footer';
 import AuthModal from '../components/layout/AuthModal';
@@ -26,6 +27,7 @@ function LandingPage() {
         <Hero openAuthModal={openAuthModal} />
         <Features />
         <CallToAction openAuthModal={openAuthModal} />
+        <About />
       </main>
       <Footer />
       

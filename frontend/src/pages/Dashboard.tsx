@@ -1,6 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useAuthStore } from '../stores/authStore';
-import { UserCircle2, Plus, MapPin, Mail, LogOut, Camera, Loader2 } from 'lucide-react';
+import { UserCircle2, Plus, Gamepad2Icon, Mail, LogOut, Camera, Loader2 } from 'lucide-react';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import { supabase, getRandomAvatar } from '../lib/supabase';
@@ -51,7 +51,7 @@ function Dashboard() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
-              <MapPin className="h-6 w-6 text-primary-500" />
+              <Gamepad2Icon className="h-6 w-6 text-primary-500" />
               <span className="font-display text-lg font-bold text-white">Pixel Town</span>
             </div>
 
